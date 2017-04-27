@@ -1,0 +1,35 @@
+[
+  {
+    "model": "flylo.Airplane",
+    "pk": 1,
+    "fields": {
+      "model": "Airbus 474",
+      "reference_code": "A486037",
+      "number_seats_tourist": 340,
+      "number_seats_business": 80,
+      "number_seats_excellence": 40
+    }
+  },
+  {
+    "model": "flylo.Airplane",
+    "pk": 2,
+    "fields": {
+      "model": "Airbus 240",
+      "reference_code": "RE56452",
+      "number_seats_tourist": 200,
+      "number_seats_business": 100,
+      "number_seats_excellence": 0
+    }
+  },
+  {
+    "model": "flylo.Airplane",
+    "pk": 3,
+    "fields": {
+      "model": "Airbus 300",
+      "reference_code": "JUR2345",
+      "number_seats_tourist": 100,
+      "number_seats_business": 150,
+      "number_seats_excellence": 80
+    }
+  }
+] 

@@ -1,0 +1,170 @@
+[
+  {
+    "model": "flylo.Flight",
+    "pk": 1,
+    "fields": {
+      "flight_number": "VLG1053",
+      "estimated_time_departure": "2017-03-28 21:40+0200",
+      "estimated_time_arrival" :"2017-03-28 22:45+0200",
+      "location_departure" : "JFK",
+      "location_arrival" : "MAD",
+      "airline" : "VLG",
+      "aircraft" : "A320",
+      "status" : "FLYING"
+    }
+  },
+   {
+   "model": "flylo.Flight",
+    "pk": 2,
+    "fields": {
+      "flight_number": "DAL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 3,
+    "fields": {
+      "flight_number": "VLG427",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "CDG",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 4,
+    "fields": {
+      "flight_number": "DAL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "CDG",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 5,
+    "fields": {
+      "flight_number": "VLG300",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 6,
+    "fields": {
+      "flight_number": "DAL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 7,
+    "fields": {
+      "flight_number": "WEL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 8,
+    "fields": {
+      "flight_number": "QTL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 9,
+    "fields": {
+      "flight_number": "DHJ477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 10,
+    "fields": {
+      "flight_number": "CDL477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 11,
+    "fields": {
+      "flight_number": "DYH477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  },
+  {
+   "model": "flylo.Flight",
+    "pk": 12,
+    "fields": {
+      "flight_number": "SUN477",
+      "estimated_time_departure":"2017-03-29 12:10+0200",
+      "estimated_time_arrival" : "2017-03-29 14:08-0400",
+      "location_departure" : "BCN",
+      "location_arrival" : "JFK",
+      "airline" : "DAL",
+      "aircraft" : "B764",
+      "status" : "DELAYED"
+    }
+  }
+] 

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "flylo.Airline",
+    "pk": 1,
+    "fields": {
+      "category": "Business",
+      "name": "Vueling"
+    }
+  },
+  {
+    "model": "flylo.Airline",
+    "pk": 2,
+    "fields": {
+      "category": "Tourist",
+      "name": "EasyJet"
+    }
+  },
+  {
+    "model": "flylo.Airline",
+    "pk": 3,
+    "fields": {
+      "category": "Excellence",
+      "name": "Qatar Airways"
+    }
+  }
+] 

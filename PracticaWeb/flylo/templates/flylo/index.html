@@ -1,0 +1,16 @@
+{% if flights %}
+<H2>
+   You're looking at all of our flights:
+   </H2>
+   <form action="{% url 'flights' %}" method="post">{% csrf_token %}
+	   	<SELECT NAME="d">
+		    {% for flight in flights %}
+		    	<option value="{{flight.location_departure}}">{{ flight.location_departure }} </option>
+		    {% endfor %}
+		</SELECT>
+	  	<input type="submit" value="Go to Flights page" />
+	</form>
+{% else %}
+    <p>No Flights are available.</p>
+{% endif %}
+

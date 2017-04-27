@@ -1,0 +1,10 @@
+{% if flights %}
+	<H2>You're looking at our flights from {{ departure }}:</H2>
+    <ul>
+    {% for flight in flights %}
+    	<li><a href="{% url 'flights' departure %}{{flight.flight_number}}">{{ flight.flight_number}} </a> from {{flight.location_departure}} to {{flight.location_arrival}} STATUS:{{flight.status}}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Flights are available.</p>
+{% endif %} 
