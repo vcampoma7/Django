@@ -62,8 +62,8 @@
       "flight_number": "VLG300",
       "estimated_time_departure":"2017-03-29 12:10+0200",
       "estimated_time_arrival" : "2017-03-29 14:08-0400",
-      "location_departure" : "BCN",
-      "location_arrival" : "JFK",
+      "location_departure" : "JFK",
+      "location_arrival" : "BCN",
       "airline" : "DAL",
       "aircraft" : "B764",
       "status" : "DELAYED"
@@ -90,8 +90,8 @@
       "flight_number": "WEL477",
       "estimated_time_departure":"2017-03-29 12:10+0200",
       "estimated_time_arrival" : "2017-03-29 14:08-0400",
-      "location_departure" : "BCN",
-      "location_arrival" : "JFK",
+      "location_departure" : "JFK",
+      "location_arrival" : "BCN",
       "airline" : "DAL",
       "aircraft" : "B764",
       "status" : "DELAYED"

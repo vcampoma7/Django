@@ -9,7 +9,10 @@
        <input type= checkbox name="checkbox{{ flight.id }}" id="checkbox{{ flight.id }}" value="{{ flight.id }}"/> 
        <a href="{% url 'flights' departure %}{{flight.flight_number}}">{{ flight.flight_number}} </a> to {{flight.location_arrival}} 
        Seats: <input type=text name="seats{{ flight.id }}" id="seats{{ flight.id }}" value=""/>
-       Return: <input type= checkbox name="ret{{ flight.id }}" id="ret{{ flight.id }}" value="{{ flight.id }}"/> 
+       {% if returnflights %}
+       {% else %}
+          Return: <input type= checkbox name="ret{{ flight.id }}" id="ret{{ flight.id }}" value="{{ flight.id }}"/> 
+       {% endif %} 
      </label>
          <BR>
     {% endfor %}
